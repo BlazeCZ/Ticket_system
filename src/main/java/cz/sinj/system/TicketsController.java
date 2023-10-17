@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 public class TicketsController {
 
     Queue<Ticket> queue = new LinkedList<>();
-    int id = 0;
+    int id = 1;
     /**
      * Zobrazení ticketu, který je právě na řadě. (Nejstarší)
      * Vrací nejstarší ticket.
