@@ -74,7 +74,7 @@ public class TicketsController {
      * Vrací nově vytvořený ticket.
      * @return String
      * **/
-    @GetMapping()
+    @GetMapping("/new")
     public String newTicket() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
         LocalDateTime now = LocalDateTime.now();
